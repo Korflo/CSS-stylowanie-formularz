@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zadanie domowe -Formularz HTML5</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <form action="" method="POST">
+        <label form="name">Imię:</label>
+        <input type="text" name="name" id="name">
+
+        <br>
+        <label form="lastname">Nazwisko:</label>
+        <input type="text" name="lastname" id="lastname">
+        
+        <br>
+        <label form="mail">E-mail:</label>
+        <input type="email" name="_replyto" id="mail">
+        
+        <br>
+        <label form="phone">Telefon:</label>
+        <input type="tel" name="phone" id="phone">
+
+        <br>
+        <label form="city">Wybierz miasto:</label>
+        <select name="city"  id="city">
+            <option value="karkow">Kraków</option>
+            <option value="warszawa">Warszawa</option>
+            <option value="gdansk">Gdańsk</option>
+        </select>
+
+        <br>
+        <p>Wybierz płeć</p>
+        <input type="radio" name="gender" value="male" id="male"><label for="male">Mężczyzna</label>
+        <br>
+        <input type="radio" name="gender" value="female" id="female"><label for="female">Kobieta</label>
+        <br>
+
+        <br>
+        <label form="message">Wiadomość: </label>
+        <textarea name="message" id="message"></textarea>
+        <br>
+        <input type="checkbox" id="agreement" name="agreement">
+        <label for="agrement">Wyrażam zgodę na przetwarzanie danych osobowych</label>
+        <br>
+        <input type="submit" value="Send">
+     </form>
+</body>
+</html>
